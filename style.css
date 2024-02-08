@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main .box{
+    top:0;
+    background:url("images/netflix\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:max(1200px,100vw);
+    height:80vh;
+    width:100vw;
+    position:absolute;
+    z-index: -1;
+    opacity:0.44;
+    border-bottom: 9px solid grey;
+}
+.main nav{
+    display:flex;
+    top:0;
+    height:15vh;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.main nav svg{
+    height:100px;
+    width:125px;
+}
+.main nav span{
+    display:flex;
+    gap:2vw;
+}
+.main nav span button{
+    border:1px solid white;
+    height:35px;
+    width:90px;
+    padding:1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.main nav span button:nth-child(1){
+    background-color: black;
+}
+.main nav span button:nth-child(2){
+    background-color: red;
+}
+.main headings{
+    height:30vh;
+    color:white;
+    align-self: center;
+    justify-self: center;
+    opacity:1;
+}
+.main headings p:nth-child(1){
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+}
+.main headings p:nth-child(2){
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.main headings p:nth-child(3){
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.main email{
+    align-self: center;
+    opacity:0.5;
+}
+.main span{
+    display: flex;
+    align-self: center;
+    gap:8px;
+}
+.main email input{
+    height:5vh;
+    width:25vw;
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    padding: 11px;
+    font-size: 15px;
+}
+.main span button{
+    border:1px solid white;
+    font-weight: bold;
+    height:8vh;
+    width:13vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: red;
+    border-radius: 4px;
+    padding: 11px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main2{
+    position:absolute;
+    top:82vh;
+    width:100vw;
+    display:flex;
+    gap:2vw;
+    border-bottom: 9px solid grey;
+    padding-bottom:225px;
+}
+.main2 written{
+    color:white;
+    margin-left: 10vw;
+    margin-top:20vh;
+    max-width: 40vw;
+}
+.main2 h1{
+    font-weight:1200;
+    font-size:50px;
+}
+.main2 secImg img{
+
+    margin-right: 10vw;
+    position:absolute;
+    z-index: 0.5;
+}
+.main2 secImg video{
+    position:relative;
+    top:101px;
+    left:75px;
+    z-index: 10;
+    width:481px;
+    height:260px;
+}
+.main2 p{
+    color: white;
+    font-size: 20px;
+    margin-bottom:15px;
+}
+.main3{
+    position:absolute;
+    top:1200px;
+    width:100vw;
+    display:flex;
+    gap:2vw;
+    border-bottom: 9px solid grey;
+    padding-bottom:577px;
+}
+.main3 secImg3 img{
+    position:absolute;
+    margin-left: 134px;
+    z-index:-0.5;
+}
+.main3 secImg3 box{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 9px;
+    height: 108px;
+    width: 335px;
+    z-index: 5;
+    background-color: black;
+    top: 319px;
+    left: 283px;
+    display:flex;
+}
+.main3 secImg3 box img{
+    width:63px;
+    align-self:center;
+    left:-117px;
+}
+.main3 secImg3 box written{
+    display: flex;
+    flex-direction: column;
+    margin-left: 126px;
+    justify-content: center;
+}
+.main3 secImg3 box written p:nth-child(1){
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+    position:relative;
+    z-index: 10;
+    margin-bottom: 0px;
+}
+.main3 secImg3 box written p:nth-child(2){
+    color:rgb(13, 91, 187);
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+    margin-top: 0px;
+}
+.main3 span{
+    position: absolute;
+    color: white;
+    margin-left: 50vw;
+    margin-top: 32vh;
+    max-width: 40vw;
+    z-index: 15;
+}
+.main3 span h1{
+    font-weight:1200;
+    font-size:50px;
+}
+.main3 span p{
+    color: white;
+    font-size: 25px;
+    margin-bottom:15px;
+    max-width:500px;
+}
+.main4{
+    position:absolute;
+    top:1850px;
+    width:100vw;
+    display:flex;
+    gap:2vw;
+    border-bottom: 9px solid grey;
+    height:565px;
+}
+.main4 written{
+    color:white;
+    margin-left: 10vw;
+    margin-top:20vh;
+    max-width: 40vw;
+}
+.main4 h1{
+    font-weight:1200;
+    font-size:50px;
+}
+.main4 secImg img{
+    margin-right: 10vw;
+    position:absolute;
+    z-index: 5;
+}
+.main4 secImg4 video{
+    position: relative;
+    top: -463px;
+    left: 123px;
+    z-index: -4;
+    width: 390px;
+    height: 260px;
+}
+.main4 p{
+    color: white;
+    font-size: 20px;
+    margin-bottom:15px;
+}
+.main5{
+    position:absolute;
+    top:2500px;
+    width:100vw;
+    display:flex;
+    gap:2vw;
+    border-bottom: 9px solid grey;
+    height:565px;
+}
+.main5 secImg5 img{
+    position:absolute;
+    margin-left: 134px;
+    z-index:-0.5;
+}
+.main5 written{
+    color:white;
+    margin-left: 53vw;
+    margin-top:14vh;
+    max-width: 40vw;
+}
+.main5 h1{
+    font-weight:1200;
+    font-size:50px;
+}
+.main5 p{
+    font-size: 20px;
+    margin-bottom:15px;
+}
+.faq{
+    position:absolute;
+    top:3100px;
+    width:100vw;
+    gap:1vw;   
+    display:flex;
+    flex-direction: column;
+    border-bottom: 9px solid grey;
+    height:900px;
+}
+.faq h1{
+    color: white;
+    align-self: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.faqbox{
+    background-color: rgba(128, 128, 128, 0.352);
+    color: white;
+    width: 80vw;
+    height: 8vh;
+    padding: 10px;
+    align-self: center;
+    font-size: 22px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqbox svg{
+    position:relative;
+    width:50px;
+    height:50px;
+}
+.faq p{
+    color: white;
+    align-self: center;
+    font-size: 20px;
+}
+.faq .buttons{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+.faq .buttons email input{
+    height:25px;
+    width:25vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    color:white;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    padding: 11px;
+    font-size: 15px;
+}
+.faq .buttons button{
+    border:1px solid white;
+    font-weight: bold;
+    height:50px;
+    width:13vw;
+    /*display:flex;
+    justify-content: center;
+    align-items: center;*/
+    color:white;
+    background-color: red;
+    border-radius: 4px;
+    padding: 11px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    position:absolute;
+    color:white;
+    top:4075px;
+    margin-left: 10vw;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    width:65vw;
+}
+footer .footLine{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: underline;
+}
+footer .Questions phone{
+    text-decoration: underline;
+}
+footer .EngButton{
+    border: 2px solid white;
+    border-radius: 2px;
+    height: 25px;
+    width: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272626;
+}
